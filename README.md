@@ -1,4 +1,4 @@
-# DeepReinforcementLearning
+# Deep Reinforcement Learning
 
 
 ## Dependencies
