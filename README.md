@@ -18,9 +18,12 @@ To set up your python environment to run the code in this repository, follow the
 	activate drlnd
 	```
 	
-2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
-	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
-	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
+2. Follow the instructions in [this repository](https://github.com/openai/gym) or see below to perform a minimal install of OpenAI gym.  
+```bash
+git clone https://github.com/openai/gym.git
+cd gym
+pip install -e .
+```	
 	
 3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
